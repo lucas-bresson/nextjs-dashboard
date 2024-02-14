@@ -78,12 +78,9 @@ export default async function InvoicesTable({
               </tr>
             </thead>
 
-            <tbody className=" divide-y divide-gray-200  text-gray-900">
+            <tbody className="divide-y divide-gray-200 text-gray-900">
               {invoices?.map((invoice) => (
-                <tr
-                  key={invoice.id}
-                  className="w-full border-b py-3 text-sm last-of-type:border-none [&:first-child>td:first-child]:rounded-tl-lg [&:first-child>td:last-child]:rounded-tr-lg [&:last-child>td:first-child]:rounded-bl-lg [&:last-child>td:last-child]:rounded-br-lg"
-                >
+                <tr key={invoice.id} className="w-full border-b py-3 text-sm">
                   <td className="whitespace-nowrap py-3 pl-6 pr-3">
                     <div className="flex items-center gap-3">
                       <Image
