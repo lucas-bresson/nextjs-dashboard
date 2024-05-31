@@ -8,7 +8,7 @@ import { createCustomer } from '@/app/lib/actions';
 import { useFormState } from 'react-dom';
 
 export default function Form() {
-  const initialState = { message: null, errors: {} };
+  const initialState = { message: '', errors: {} };
   const [state, dispatch] = useFormState(createCustomer, initialState);
 
   return (
