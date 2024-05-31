@@ -78,7 +78,7 @@ export default async function InvoicesTable({
               </tr>
             </thead>
 
-            <tbody className="divide-y divide-gray-200 text-gray-900">
+            <tbody className="divide-y divide-gray-200 bg-white text-gray-900">
               {invoices?.map((invoice) => (
                 <tr key={invoice.id} className="w-full border-b py-3 text-sm">
                   <td className="whitespace-nowrap py-3 pl-6 pr-3">
