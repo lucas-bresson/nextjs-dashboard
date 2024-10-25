@@ -6,7 +6,7 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 ## Preview the project
 
-https://nextjs-dashboard-dd8e26g4f-lucas-bressons-projects.vercel.app/
+https://nextjs-dashboard-nine-pi-96.vercel.app
 
 Log in with Email: user@nextmail.com / Password: 123456
 
